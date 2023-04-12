@@ -95,7 +95,7 @@ public class Zavodnici {
     }
     
     public void getWinner() {
-        int temp = 6942000;
+        int temp = 100000000;
         int vyherce = 0;
         for (int i = 0; i < Zavodnici.length; i++) {
             if (Zavodnici[i].calculateTime < temp) {

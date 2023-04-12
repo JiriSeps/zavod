@@ -12,7 +12,7 @@ package zavod;
 public class Zavodnik implements Comparable<Zavodnik> {
     private String name;
     private String surname;
-    private boolean status = false; // false - bezi, true - dobehl
+    private boolean status = false; // bezi x dobehl
     private int number;
     private int time;
     private int hours;

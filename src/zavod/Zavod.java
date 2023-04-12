@@ -6,7 +6,7 @@ package zavod;
 
 /**
  *
- * @author hsodo
+ * @author fiwie
  */
 public class Zavod {
 
@@ -15,12 +15,12 @@ public class Zavod {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Zavodnik pepa = new Zavodnik("Pepa", "");
-        pepa.setStartingNumber(1);
-        pepa.setStartingTime(0, 0, 0);
-        pepa.setFinishTime(1, 1, 1);
-        pepa.getTime();
-        System.out.println(pepa);
+        Zavodnik first = new Zavodnik("Pepa", "");
+        first.setStartingNumber(1);
+        first.setStartingTime(0, 0, 0);
+        first.setFinishTime(1, 1, 1);
+        first.getTime();
+        System.out.println(first);
     }
 
 }
